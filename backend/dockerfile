@@ -1,6 +1,6 @@
 FROM openjdk:17
 WORKDIR /app
 LABEL MAINTAINER = "Sumit Das" 
-copy /target/backend.jar /app
+copy /target/backend.jar .
 EXPOSE 8080
-ENTRYPOINT ["java","-jar","/app/backend.jar"]
+ENTRYPOINT ["java","-jar","/backend.jar"]
