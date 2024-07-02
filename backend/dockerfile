@@ -1,5 +1,5 @@
 FROM openjdk:17
-LABEL MAINTAINER = "Sumit Das" 
-copy /target/backend.jar .
+LABEL MAINTAINER="Sumit Das" 
+copy /backend.jar .
 EXPOSE 8080
 ENTRYPOINT ["java","-jar","/backend.jar"]
