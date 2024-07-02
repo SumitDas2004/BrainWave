@@ -1,5 +1,4 @@
 FROM openjdk:17
-WORKDIR /app
 LABEL MAINTAINER = "Sumit Das" 
 copy /target/backend.jar .
 EXPOSE 8080
