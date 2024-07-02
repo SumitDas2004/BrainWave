@@ -23,7 +23,7 @@ const AttemptQuiz = () => {
 
   const getQuestions = (id, authenticationToken) => {
     axios({
-      url: "http://localhost:8080/quiz/" + id,
+      url: "https://brainwave-ruzq.onrender.com/quiz/" + id,
       method: "GET",
       headers: {
         Authorization: "Bearer " + authenticationToken,
@@ -51,7 +51,7 @@ const AttemptQuiz = () => {
 
   const submitQuiz = (authenticationToken)=>{
     axios({
-      url:"http://localhost:8080/quiz/submit",
+      url:"https://brainwave-ruzq.onrender.com/quiz/submit",
       method: "POST",
       headers: {
         Authorization: "Bearer " + authenticationToken,

@@ -21,7 +21,7 @@ const JoinRoomForm = ({ formState }) => {
       return;
     }
     axios({
-      url: "http://localhost:8080/user/login",
+      url: "https://brainwave-ruzq.onrender.com/user/login",
       headers: {
         "Content-Type": "application/json",
       },

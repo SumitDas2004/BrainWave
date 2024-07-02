@@ -19,7 +19,7 @@ const CreateQuiz = () => {
 
   const saveQuiz = ()=>{
     axios({
-      url:'http://localhost:8080/quiz/create',
+      url:'https://brainwave-ruzq.onrender.com/quiz/create',
       headers:{
         'Content-Type':'application/json',
         "Authorization":'Bearer '+authToken

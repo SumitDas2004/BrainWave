@@ -27,7 +27,7 @@ const CreateRoomForm = ({ formState }) => {
       return ;
     }
     axios({
-      url:"http://localhost:8080/user/register", 
+      url:"https://brainwave-ruzq.onrender.com/user/register", 
       headers: {
         "Content-Type": "application/json",
       },
