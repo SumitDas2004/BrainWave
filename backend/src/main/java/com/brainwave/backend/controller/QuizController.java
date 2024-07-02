@@ -16,7 +16,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/quiz")
-@CrossOrigin("http://localhost:5173")
+@CrossOrigin("*")
 public class QuizController {
     @Autowired
     QuizService quizService;
